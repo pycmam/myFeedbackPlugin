@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="system" target-language="ru" datatype="plaintext" original="messages">
+    <header/>
+    <body>
+      <trans-unit>
+        <source>feedback_name</source>
+        <target>Ваше имя</target>
+      </trans-unit>
+      <trans-unit>
+        <source>feedback_email</source>
+        <target>E-Mail</target>
+      </trans-unit>
+      <trans-unit>
+        <source>feedback_subj</source>
+        <target>Тема</target>
+      </trans-unit>
+      <trans-unit>
+        <source>feedback_question</source>
+        <target>Сообщение</target>
+      </trans-unit>
+      <trans-unit>
+        <source>question.done</source>
+        <target>Ваше сообщение успешно отправлено.</target>
+      </trans-unit>
+      <trans-unit>
+        <source>Submit</source>
+        <target>Отправить</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

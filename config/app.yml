@@ -1,0 +1,6 @@
+# myFeedback plugin settings
+#all:
+#  myFeedback:
+#    email:
+#      enabled:      true
+#      to:           pycmam@gmail.com
