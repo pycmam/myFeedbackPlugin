@@ -21,5 +21,6 @@ class FeedbackForm extends BaseForm
         ));
 
         $this->widgetSchema->setNameFormat('feedback[%s]');
+        $this->disableLocalCSRFProtection();
     }
 }
