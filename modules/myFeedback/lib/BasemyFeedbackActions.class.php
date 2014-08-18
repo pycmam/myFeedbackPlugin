@@ -34,8 +34,8 @@ class BasemyFeedbackActions extends sfActions
         $this->form->bind($request->getParameter($this->form->getName()));
         if ($this->form->isValid()) {
             $this->getMailer()->createAndSend(
-                sfConfig::get('app_mail_admin_email'),
-                'Сообщение с сайта LittleSMS.ru: ' . $this->form->getValue('subj'),
+                sfConfig::get('app_mail_from_email'),
+                'LittleSMS.ru: ' . $this->form->getValue('subj'),
                 $this->getPartial('myFeedback/mail/message.txt', $this->form->getValues()),
                 sfConfig::get('app_mail_admin_email'),
                 $this->form->getValue('email')
